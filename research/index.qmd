@@ -1,0 +1,44 @@
+---
+title: "Research"
+---
+
+## Lines of work
+
+::: {.callout-note}
+**TODO — replace this placeholder with the group's real research lines.**
+Each line should be one paragraph: the question, why it is hard, and what
+the group has done about it.
+:::
+
+### Causal estimation with complex exposures
+
+Multicausal and multivalued treatment effects in the potential outcomes
+framework. Double-robust estimation, cross-fitting, and
+influence-function-based inference when the treatment has more than two
+levels and the nuisance models are learned by machine learning. See
+[Software](../software.qmd) for the implementation.
+
+### Machine learning and semiparametric efficiency
+
+Using flexible learners inside semiparametric estimators without giving
+up valid inference: targeted maximum likelihood, doubly robust learning,
+and the variance estimation that makes them publishable.
+
+### Applications in health and epidemiology
+
+Causal questions in observational health data, where randomisation is
+impossible and the assumptions have to be argued rather than verified.
+
+::: {.callout-note}
+**TODO — add the applied projects actually under way**, especially the
+PhD students' thesis topics, so this section reflects real work rather
+than the generic description above.
+:::
+
+## Open problems
+
+::: {.callout-note}
+**TODO — list the problems you would like collaborators or prospective
+students to approach.** This is often what attracts the most useful
+contact.
+:::

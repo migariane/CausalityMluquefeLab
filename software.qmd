@@ -1,0 +1,29 @@
+---
+title: "Software"
+---
+
+## tmleMulti
+
+Targeted Maximum Likelihood Estimation for multicausal treatment effects
+in the potential outcomes framework. Supports multivalued treatments with
+Super Learner nuisance estimation, cross-fitting, and
+influence-function-based variance estimation, alongside competitor
+estimators (Double Machine Learning, overlap-weighted IPW, and
+G-computation).
+
+- Package source: [github.com/migariane/tmleMulti](https://github.com/migariane/tmleMulti)
+- Reference documentation: [migariane.github.io/tmleMulti](https://migariane.github.io/tmleMulti)
+
+::: {.callout-note}
+**TODO — confirm the version to advertise.** The package `DESCRIPTION`
+says 0.1.0. Do not present it as a released/CRAN package unless it is
+one; state "development version" if that is accurate.
+:::
+
+## Other tools
+
+::: {.callout-note}
+**TODO — add any other software the group maintains**, or delete this
+heading. Prefer linking to the repository over copying code here, so
+there is one source of truth.
+:::

@@ -1,0 +1,53 @@
+---
+title: "Causality Lab"
+subtitle: "Causal inference for health research"
+page-layout: full
+---
+
+::: {.hero}
+# Causality Lab
+
+Research group in causal inference at the Department of Statistics and
+Operations Research, University of Granada.
+:::
+
+## What we do
+
+We develop and apply causal inference methods for questions that matter
+in health research: what is the effect of an exposure, an intervention,
+or a policy on an outcome, when randomisation is not possible.
+
+Work in the group spans targeted maximum likelihood estimation, doubly
+robust and machine-learning-based estimators, and the potential outcomes
+framework, applied to epidemiological and clinical data.
+
+::: {.callout-note}
+**TODO — confirm the scope text above** describes the group accurately,
+and add the two or three research lines you most want to be known for.
+:::
+
+## Research
+
+See [Research](research/index.qmd) for the group's current lines of work
+and open problems.
+
+## Team
+
+See [Team](students/index.qmd) for the PhD students and their projects.
+
+## Publications and software
+
+- [Publications](publications/index.qmd)
+- [Software](software.qmd)
+
+## Contact
+
+Group lead: Miguel Ángel Luque Fernández
+([ORCID 0000-0002-1382-875X](https://orcid.org/0000-0002-1382-875X),
+[mluquefe@ugr.es](mailto:mluquefe@ugr.es)) — Department of Statistics and
+Operations Research, University of Granada.
+
+::: {.callout-note}
+**TODO — add the group's postal address and an institutional affiliation
+line**, and confirm whether the email above is the one to publish.
+:::

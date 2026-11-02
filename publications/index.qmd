@@ -1,0 +1,28 @@
+---
+title: "Publications"
+---
+
+## 2026
+
+::: {.callout-note}
+**TODO — add rows here, newest first.** Copy author names exactly as they
+appear on the source. Do not retype DOIs; paste them.
+:::
+
+- Luque-Fernández, M. Á., et al. (2026). *Title of paper.*
+  **Journal**, volume(issue), pages.
+  [doi:10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+
+## 2025
+
+::: {.callout-note}
+**TODO — add rows, or delete this heading if there were no publications.**
+:::
+
+## PhD theses
+
+::: {.callout-note}
+**TODO — list completed theses with author, title, year, and a link to
+the institutional repository.** Link to the repository record rather
+than hosting the PDF here.
+:::

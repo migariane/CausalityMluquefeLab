@@ -1,0 +1,42 @@
+---
+title: "Student name"
+subtitle: "PhD student"
+---
+
+::: {.columns}
+::: {.column width="30%"}
+![](photo.jpg){alt="Portrait of Student name"}
+:::
+
+::: {.column width="70%"}
+
+## Project
+
+::: {.callout-note}
+**TODO — one paragraph in the student's own words** on the research
+question, why it matters, and the current stage of the thesis.
+:::
+
+**Supervisor:** Miguel Ángel Luque Fernández
+
+**Started:** TODO
+
+**Funding:** TODO (or delete this line)
+
+## Publications
+
+::: {.callout-note}
+**TODO — list publications, or delete this section** if there are none
+yet. Never list a paper as published before it is.
+:::
+
+## Contact
+
+::: {.callout-note}
+**TODO — add only the contact details the student agrees to publish**,
+then delete this note. Institutional email is usually enough; do not
+publish a personal phone number.
+:::
+
+:::
+:::

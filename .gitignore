@@ -1,0 +1,20 @@
+# Rendered output
+_site/
+.quarto/
+*_files/
+
+# Quarto / editor caches
+.quarto-*
+*.html
+
+# But: keep hand-written HTML fragments if any are added later
+!templates/**/*.html
+
+# OS noise
+.DS_Store
+
+# Photos of students: never commit without consent
+students/*/photo.*
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "students/*/index.qmd"
+    - "publications/*.qmd"
+    - "research/*.qmd"
+  resources:
+    - "students/*/photo.*"
+  preview:
+    port: 4321
+
+website:
+  title: "Causality Lab"
+  description: >-
+    Causal inference research group at the University of Granada.
+  navbar:
+    background: light
+    left:
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Team"
+        href: students/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Software"
+        href: software.qmd
+    right:
+      - icon: github
+        text: GitHub
+        href: https://github.com/migariane
+        aria-label: GitHub profile
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
+    toc: false
+    page-footer:
+      left: "© 2026 Miguel Ángel Luque Fernández"
+      right: "Built with [Quarto](https://quarto.org)"

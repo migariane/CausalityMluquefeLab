@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+
+// Palette mirrors Preambles/header.tex and Quarto/theme-template.scss
+// in the parent repo. Keep them consistent if either changes; see
+// scripts/check-palette-sync.sh.
+$primary: #1f4e79;
+$secondary: #5b8fb9;
+$body-color: #222;
+$link-color: $primary;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: $primary;
+  color: #fff;
+  padding: 2.5rem 1rem;
+}
+
+// Student cards on the team listing
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.student-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.student-card img {
+  width: 100%;
+  max-width: 140px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+}
+
+.student-card h3 {
+  font-size: 1.05rem;
+  margin: 0.25rem 0;
+}
+
+.student-card .role {
+  font-size: 0.9rem;
+  color: #666;
+}
