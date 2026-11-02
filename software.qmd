@@ -14,6 +14,17 @@ G-computation).
 - Package source: [github.com/migariane/tmleMulti](https://github.com/migariane/tmleMulti)
 - Reference documentation: [migariane.github.io/tmleMulti](https://migariane.github.io/tmleMulti)
 
+**Authors:** co-authored by Gustavo Rivas Gervilla (PhD student, this
+group) and Miguel Ángel Luque Fernández (senior author).
+
+::: {.callout-note}
+**TODO — the package metadata does not yet reflect this.** The
+`DESCRIPTION` `Authors@R` field and the `LICENSE` copyright holder list
+only Miguel Ángel Luque Fernández. Add Gustavo as `aut` (and confirm the
+copyright line) before publishing the co-authorship claim above, so the
+site and the package agree.
+:::
+
 ::: {.callout-note}
 **TODO — confirm the version to advertise.** The package `DESCRIPTION`
 says 0.1.0. Do not present it as a released/CRAN package unless it is

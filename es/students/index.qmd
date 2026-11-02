@@ -1,0 +1,74 @@
+---
+title: "Equipo"
+---
+
+## Doctorandos
+
+::: {.callout-note}
+**PENDIENTE — crear un directorio por estudiante dentro de `es/students/`**,
+copiando `templates/student.es.qmd.txt`. Cada estudiante debe aportar su
+propio texto y aprobar su foto antes de publicarla. El listado de abajo
+es el único lugar donde se describe el grupo; cada página individual
+contiene el detalle.
+:::
+
+::: {.student-grid}
+
+::: {.student-card}
+<!-- PENDIENTE: añadir una foto en es/students/eliezer-pita/photo.jpg -->
+
+### Eliezer Pita
+
+::: {.role}
+Doctorando · Inferencia causal e inferencia conformal
+:::
+
+[Perfil](eliezer-pita/index.qmd)
+:::
+
+::: {.student-card}
+<!-- PENDIENTE: añadir una foto en es/students/gustavo-rivas-gervilla/photo.jpg -->
+
+### Gustavo Rivas Gervilla
+
+::: {.role}
+Doctorando · Multicausalidad
+:::
+
+[Perfil](gustavo-rivas-gervilla/index.qmd)
+:::
+
+:::
+
+::: {.callout-tip}
+## Plantilla de tarjeta
+
+Pega esto dentro de `.student-grid` por cada estudiante, sustituyendo
+`nombre-apellido` por el directorio que hayas creado:
+
+```markdown
+::: {.student-card}
+![](../students/nombre-apellido/photo.jpg){alt="Retrato de Nombre del estudiante"}
+
+### Nombre del estudiante
+
+::: {.role}
+Doctorando · Tema de tesis
+:::
+
+[Perfil](../students/nombre-apellido/index.qmd)
+:::
+```
+:::
+
+## Responsable del grupo
+
+**Miguel Ángel Luque Fernández** — Departamento de Estadística e
+Investigación Operativa, Universidad de Granada.
+[ORCID](https://orcid.org/0000-0002-1382-875X) ·
+[mluquefe@ugr.es](mailto:mluquefe@ugr.es)
+
+::: {.callout-note}
+**PENDIENTE — añadir posdoctorandos, colaboradores o codirectores** que
+deban aparecer aquí, con su consentimiento.
+:::

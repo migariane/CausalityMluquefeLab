@@ -27,6 +27,9 @@ website:
       - text: "Software"
         href: software.qmd
     right:
+      - text: "ES"
+        href: es/index.html
+        aria-label: "Leer este sitio en español"
       - icon: github
         text: GitHub
         href: https://github.com/migariane
@@ -38,6 +41,8 @@ format:
       light: [cosmo, custom.scss]
       dark: [darkly, custom.scss]
     toc: false
+    lang: en
     page-footer:
       left: "© 2026 Miguel Ángel Luque Fernández"
+      center: "English version · [Español](es/index.html)"
       right: "Built with [Quarto](https://quarto.org)"

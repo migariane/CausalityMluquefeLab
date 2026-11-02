@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "students/*/index.qmd"
+    - "publications/*.qmd"
+    - "research/*.qmd"
+
+website:
+  title: "Causality Lab"
+  description: >-
+    Grupo de investigación en inferencia causal de la Universidad de Granada.
+  navbar:
+    background: light
+    left:
+      - text: "Investigación"
+        href: research/index.qmd
+      - text: "Equipo"
+        href: students/index.qmd
+      - text: "Publicaciones"
+        href: publications/index.qmd
+      - text: "Software"
+        href: software.qmd
+    right:
+      - text: "EN"
+        href: ../index.html
+        aria-label: "Read this site in English"
+      - icon: github
+        text: GitHub
+        href: https://github.com/migariane
+        aria-label: Perfil de GitHub
+
+format:
+  html:
+    theme:
+      light: [cosmo, ../custom.scss]
+      dark: [darkly, ../custom.scss]
+    toc: false
+    lang: es
+    page-footer:
+      left: "© 2026 Miguel Ángel Luque Fernández"
+      center: "Versión en español · [English](../index.html)"
+      right: "Hecho con [Quarto](https://quarto.org)"

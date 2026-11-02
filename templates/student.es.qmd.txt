@@ -1,0 +1,42 @@
+---
+title: "Nombre del estudiante"
+subtitle: "Doctorando"
+---
+
+::: {.columns}
+::: {.column width="30%"}
+![](photo.jpg){alt="Retrato de Nombre del estudiante"}
+:::
+
+::: {.column width="70%"}
+
+## Proyecto
+
+::: {.callout-note}
+**PENDIENTE — un párrafo en palabras del propio estudiante** sobre la
+pregunta de investigación, por qué importa y en qué punto está la tesis.
+:::
+
+**Director:** Miguel Ángel Luque Fernández
+
+**Inicio:** PENDIENTE
+
+**Financiación:** PENDIENTE (o borra esta línea)
+
+## Publicaciones
+
+::: {.callout-note}
+**PENDIENTE — listar publicaciones, o borrar esta sección** si aún no hay
+ninguna. Nunca listes un artículo como publicado antes de que lo esté.
+:::
+
+## Contacto
+
+::: {.callout-note}
+**PENDIENTE — añadir solo los datos de contacto que el estudiante acepte
+publicar**, y borrar esta nota. El correo institucional suele ser
+suficiente; no publiques un teléfono personal.
+:::
+
+:::
+:::

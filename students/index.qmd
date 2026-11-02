@@ -14,14 +14,27 @@ single place to describe the group; individual pages hold the detail.
 ::: {.student-grid}
 
 ::: {.student-card}
-<!-- TODO: replace this whole card. Copy the block below, once per student. -->
+<!-- TODO: add a photo at students/eliezer-pita/photo.jpg -->
 
-### Student name
+### Eliezer Pita
 
 ::: {.role}
-PhD student · Thesis topic
+PhD student · Causal inference and conformal inference
 :::
 
+[Profile](../students/eliezer-pita/index.qmd)
+:::
+
+::: {.student-card}
+<!-- TODO: add a photo at students/gustavo-rivas-gervilla/photo.jpg -->
+
+### Gustavo Rivas Gervilla
+
+::: {.role}
+PhD student · Multicausality
+:::
+
+[Profile](../students/gustavo-rivas-gervilla/index.qmd)
 :::
 
 :::

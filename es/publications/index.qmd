@@ -1,0 +1,30 @@
+---
+title: "Publicaciones"
+---
+
+## 2026
+
+::: {.callout-note}
+**PENDIENTE — añadir filas aquí, del más reciente al más antiguo.**
+Copia los nombres de los autores exactamente como aparecen en la fuente.
+No reescribas los DOI; pégalos.
+:::
+
+- Luque-Fernández, M. Á., et al. (2026). *Título del artículo.*
+  **Revista**, volumen(número), páginas.
+  [doi:10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+
+## 2025
+
+::: {.callout-note}
+**PENDIENTE — añadir filas, o borrar este encabezado si no hubo
+publicaciones.**
+:::
+
+## Tesis doctorales
+
+::: {.callout-note}
+**PENDIENTE — listar las tesis defendidas con autor, título, año y enlace
+al repositorio institucional.** Enlaza al registro del repositorio en
+lugar de alojar el PDF aquí.
+:::

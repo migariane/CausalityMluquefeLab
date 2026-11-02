@@ -1,0 +1,57 @@
+---
+title: "Eliezer Pita"
+subtitle: "PhD student"
+---
+
+::: {.columns}
+::: {.column width="30%"}
+::: {.callout-note}
+**TODO — add a photo** at `students/eliezer-pita/photo.jpg`, with his
+consent. Until then this placeholder stays.
+:::
+:::
+
+::: {.column width="70%"}
+
+## Project
+
+**Causal inference and conformal inference.**
+
+The thesis develops conformal inference methods for causal questions,
+with a focus on producing valid uncertainty quantification without
+relying on the parametric assumptions that standard causal estimators
+need. Conformal methods offer distribution-free coverage guarantees,
+which makes them attractive where the outcome model is learned by
+machine learning or where the sample is small.
+
+::: {.callout-note}
+**TODO — Eliezer: rewrite this paragraph in your own words** so it
+states your actual research question, the specific gap in the
+literature, and the stage the thesis has reached. Replace the
+description above entirely.
+:::
+
+**Supervisor:** Miguel Ángel Luque Fernández
+
+**Institution:** University of Granada
+
+**Started:** TODO
+
+**Funding:** TODO (or delete this line)
+
+## Publications
+
+::: {.callout-note}
+**TODO — list publications, or delete this section** if there are none
+yet. Never list a paper as published before it is.
+:::
+
+## Contact
+
+::: {.callout-note}
+**TODO — add only the contact details Eliezer agrees to publish**, then
+delete this note. Institutional email is usually enough.
+:::
+
+:::
+:::

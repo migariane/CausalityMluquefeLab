@@ -1,0 +1,42 @@
+---
+title: "Software"
+---
+
+## tmleMulti
+
+Estimación por máxima verosimilitud dirigida (TMLE) para efectos de
+tratamiento multicausales en el marco de resultados potenciales. Admite
+tratamientos multivaluados con estimación de los modelos auxiliares
+mediante Super Learner, validación cruzada (*cross-fitting*) e
+inferencia basada en funciones de influencia, junto con estimadores
+competidores (aprendizaje automático doble, IPW con ponderación por
+solapamiento y g-computation).
+
+- Código del paquete: [github.com/migariane/tmleMulti](https://github.com/migariane/tmleMulti)
+- Documentación de referencia: [migariane.github.io/tmleMulti](https://migariane.github.io/tmleMulti)
+
+**Autoría:** coautorado por Gustavo Rivas Gervilla (doctorando del
+grupo) y Miguel Ángel Luque Fernández (autor sénior).
+
+::: {.callout-note}
+**PENDIENTE — los metadatos del paquete aún no lo reflejan.** El campo
+`Authors@R` del `DESCRIPTION` y el titular del copyright en `LICENSE`
+solo incluyen a Miguel Ángel Luque Fernández. Añade a Gustavo como `aut`
+(y confirma la línea de copyright) antes de publicar la coautoría
+anterior, para que el sitio y el paquete coincidan.
+:::
+
+::: {.callout-note}
+**PENDIENTE — confirmar la versión que se quiere anunciar.** El fichero
+`DESCRIPTION` del paquete indica 0.1.0. No lo presentes como paquete
+publicado en CRAN si no lo está; indica "versión en desarrollo" si es lo
+correcto.
+:::
+
+## Otras herramientas
+
+::: {.callout-note}
+**PENDIENTE — añadir otro software que mantenga el grupo**, o borrar
+este encabezado. Es preferible enlazar al repositorio antes que copiar
+código aquí, para tener una única fuente de verdad.
+:::

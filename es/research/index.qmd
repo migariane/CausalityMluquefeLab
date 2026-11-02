@@ -1,0 +1,46 @@
+---
+title: "Investigación"
+---
+
+## Líneas de trabajo
+
+::: {.callout-note}
+**PENDIENTE — sustituir este texto por las líneas de investigación
+reales del grupo.** Cada línea debería ser un párrafo: la pregunta, por
+qué es difícil y qué ha hecho el grupo al respecto.
+:::
+
+### Estimación causal con exposiciones complejas
+
+Efectos de tratamiento multicausales y multivaluados en el marco de
+resultados potenciales. Estimación doblemente robusta, validación
+cruzada (*cross-fitting*) e inferencia basada en funciones de influencia
+cuando el tratamiento tiene más de dos niveles y los modelos auxiliares
+se aprenden mediante aprendizaje automático. La implementación está en
+[Software](../software.qmd).
+
+### Aprendizaje automático y eficiencia semiparamétrica
+
+Uso de aprendices flexibles dentro de estimadores semiparamétricos sin
+renunciar a una inferencia válida: máxima verosimilitud dirigida,
+aprendizaje doblemente robusto y la estimación de la varianza que los
+hace publicables.
+
+### Aplicaciones en salud y epidemiología
+
+Preguntas causales con datos observacionales en salud, donde no es
+posible aleatorizar y los supuestos deben argumentarse, no comprobarse.
+
+::: {.callout-note}
+**PENDIENTE — añadir los proyectos aplicados realmente en curso**,
+especialmente las tesis de los doctorandos, para que esta sección
+refleje trabajo real y no la descripción genérica anterior.
+:::
+
+## Problemas abiertos
+
+::: {.callout-note}
+**PENDIENTE — enumerar los problemas que os gustaría que abordaran
+colaboradores o futuros doctorandos.** Suele ser lo que más contactos
+útiles atrae.
+:::

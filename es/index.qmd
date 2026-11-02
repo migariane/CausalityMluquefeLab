@@ -1,0 +1,58 @@
+---
+title: "Causality Lab"
+subtitle: "Inferencia causal para la investigación en salud"
+page-layout: full
+---
+
+::: {.hero}
+# Causality Lab
+
+Grupo de investigación en inferencia causal del Departamento de
+Estadística e Investigación Operativa, Universidad de Granada.
+:::
+
+## Qué hacemos
+
+Desarrollamos y aplicamos métodos de inferencia causal a preguntas que
+importan en la investigación en salud: cuál es el efecto de una
+exposición, una intervención o una política sobre un desenlace, cuando
+no es posible aleatorizar.
+
+El trabajo del grupo abarca la estimación por máxima verosimilitud
+dirigida (TMLE), los estimadores doblemente robustos basados en
+aprendizaje automático y el marco de resultados potenciales, aplicados a
+datos epidemiológicos y clínicos.
+
+::: {.callout-note}
+**PENDIENTE — confirmar que el texto anterior describe el grupo con
+precisión** y añadir las dos o tres líneas de investigación por las que
+queréis ser reconocidos.
+:::
+
+## Investigación
+
+Consulta [Investigación](research/index.qmd) para conocer las líneas de
+trabajo actuales y los problemas abiertos.
+
+## Equipo
+
+Consulta [Equipo](students/index.qmd) para ver a los doctorandos y sus
+proyectos.
+
+## Publicaciones y software
+
+- [Publicaciones](publications/index.qmd)
+- [Software](software.qmd)
+
+## Contacto
+
+Responsable del grupo: Miguel Ángel Luque Fernández
+([ORCID 0000-0002-1382-875X](https://orcid.org/0000-0002-1382-875X),
+[mluquefe@ugr.es](mailto:mluquefe@ugr.es)) — Departamento de Estadística
+e Investigación Operativa, Universidad de Granada.
+
+::: {.callout-note}
+**PENDIENTE — añadir la dirección postal del grupo y la filiación
+institucional**, y confirmar que el correo anterior es el que se quiere
+publicar.
+:::

@@ -1,6 +1,8 @@
 # Rendered output
 _site/
 .quarto/
+es/_site/
+es/.quarto/
 *_files/
 
 # Quarto / editor caches

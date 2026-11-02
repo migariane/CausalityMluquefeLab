@@ -10,12 +10,16 @@ invented.
 
 ## Build
 
+The site is **bilingual**: English at `/`, Spanish at `/es/`. Build both
+with the script, which renders each language and assembles them into one
+`_site/` tree:
+
 ```bash
-cd CausalityMluquefeLab
-PATH="/usr/local/bin:$PATH" quarto render
+./build.sh
 ```
 
-Preview locally with live reload:
+Preview locally with live reload (English only; run it again inside
+`es/` for the Spanish version):
 
 ```bash
 PATH="/usr/local/bin:$PATH" quarto preview
@@ -60,12 +64,20 @@ Use the student's full name exactly as on their own page so the two agree.
 
 ## Deploying
 
-The `.github/workflows/publish.yml` workflow renders and publishes to
-GitHub Pages on every push to `main`. It requires a GitHub repository
-with Pages enabled (Settings → Pages → Source: GitHub Actions).
+**The site is currently private and not published.** The repository is
+private and GitHub Pages is disabled, so it can be shared with students
+and edited before going live. The public URL returns 404.
+
+When ready to publish:
+
+1. Enable Pages: Settings → Pages → Source: GitHub Actions.
+2. Push to `main`. The `.github/workflows/publish.yml` workflow renders
+   both languages and deploys.
+
+Note that GitHub Pages for a private repository requires GitHub Pro; on a
+free plan the repository must be public to publish. The workflow now runs
+`./build.sh`, which also produces the Spanish version.
 
 Do **not** reuse the parent repo's remotes. In particular the
 `bioestadistica-fisioterapia` remote is deliberately push-blocked, and a
 push from here would not merge — it would overwrite that course's history.
-
-Until a repository is created, the site is built locally only.
