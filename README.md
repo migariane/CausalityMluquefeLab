@@ -64,19 +64,25 @@ Use the student's full name exactly as on their own page so the two agree.
 
 ## Deploying
 
-**The site is currently private and not published.** The repository is
-private and GitHub Pages is disabled, so it can be shared with students
-and edited before going live. The public URL returns 404.
+The repository is **public** and GitHub Pages is **enabled** (Source: GitHub
+Actions). The URL is https://migariane.github.io/CausalityMluquefeLab/.
 
-When ready to publish:
+**Current blocker:** the deploy workflow fails immediately with
+`The job was not started because your account is locked due to a billing
+issue.` This is account-level, not repo-level — the site will publish as soon
+as the GitHub billing issue is resolved, with no further repo change.
 
-1. Enable Pages: Settings → Pages → Source: GitHub Actions.
-2. Push to `main`. The `.github/workflows/publish.yml` workflow renders
-   both languages and deploys.
+To publish:
+
+1. Resolve the billing lock on the `migariane` account.
+2. Push to `main` (or re-run the workflow). `.github/workflows/publish.yml`
+   renders both languages and deploys.
+
+The workflow runs `./build.sh`, which also produces the Spanish version and
+validates that both entry points exist and link to each other.
 
 Note that GitHub Pages for a private repository requires GitHub Pro; on a
-free plan the repository must be public to publish. The workflow now runs
-`./build.sh`, which also produces the Spanish version.
+free plan the repository must be public to publish.
 
 Do **not** reuse the parent repo's remotes. In particular the
 `bioestadistica-fisioterapia` remote is deliberately push-blocked, and a
