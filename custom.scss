@@ -16,10 +16,18 @@ $secondary: #5b8fb9;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 
   .navbar-logo {
-    max-height: 38px;
+    max-height: 56px;
     width: auto;
-    border-radius: 6px;
+    margin-right: 1.5rem;
   }
+}
+
+// The logo mark is blue + red; on a dark navbar it would be low-contrast,
+// so place it on a light chip in dark mode.
+.dark .navbar .navbar-logo {
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 // Hero banner on the home page
@@ -30,12 +38,13 @@ $secondary: #5b8fb9;
   padding: 3rem 2rem;
   margin: 1.5rem 0 2rem;
 
-  .hero-logo {
+.hero-logo {
     background: #fff;
-    padding: 8px;
-    border-radius: 12px;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.4);
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   h1 {
