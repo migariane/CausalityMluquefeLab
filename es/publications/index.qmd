@@ -4,6 +4,26 @@ title: "Publicaciones"
 
 Artículos revisados por pares, preprints e informes técnicos. La lista completa y actualizada está en [Google Scholar](https://scholar.google.es/citations?user=lA11XToAAAAJ&hl).
 
+## 2026
+
+- Wu, Z., Leisen, F., Luque-Fernández, M. Á., & Rubio, F. J. (2026). *Conformalized Super Learner*. arXiv:2604.22391. [doi:10.48550/arXiv.2604.22391](https://doi.org/10.48550/arXiv.2604.22391)
+
+## 2025
+
+- Smith, M. J., Phillips, R. V., Maringe, C., & Luque-Fernández, M. Á. (2025). *Performance of Cross-Validated Targeted Maximum Likelihood Estimation*. Statistics in Medicine, 44(15–17), e70185. [doi:10.1002/sim.70185](https://doi.org/10.1002/sim.70185)
+
+- Chatton, A., Schomaker, M., Luque-Fernández, M. Á., Platt, R. W., & Schnitzer, M. E. (2025). *Is Checking for Sequential Positivity Violations Getting You Down? Try sPoRT!* Epidemiology, 36(6), 751. [doi:10.1097/EDE.0000000000001902](https://doi.org/10.1097/EDE.0000000000001902)
+
+- Talbot, D., Diop, A., Mésidor, M., Chiu, Y. M., Sirois, C., Spieker, A. J., … Luque-Fernández, M. Á. (2025). *Guidelines and Best Practices for the Use of Targeted Maximum Likelihood and Machine Learning When Estimating Causal Effects of Exposures on Time-To-Event Outcomes*. Statistics in Medicine, 44(6), e70034. [doi:10.1002/sim.70034](https://doi.org/10.1002/sim.70034)
+
+## 2024
+
+- Ling, S., Luque-Fernández, M. Á., Quaresma, M., Belot, A., & Rachet, B. (2024). *Inequalities in treatment among patients with colon and rectal cancer: a multistate survival model using data from England national cancer registry 2012–2016*. British Journal of Cancer, 130(1), 88–98. [doi:10.1038/s41416-023-02440-6](https://doi.org/10.1038/s41416-023-02440-6)
+
+## 2023
+
+- Smith, M. J., Phillips, R. V., Luque-Fernández, M. Á., & Maringe, C. (2023). *Application of targeted maximum likelihood estimation in public health and epidemiological studies: a systematic review*. Annals of Epidemiology, 86, 34–48.e28. [doi:10.1016/j.annepidem.2023.06.004](https://doi.org/10.1016/j.annepidem.2023.06.004)
+
 ## 2022
 
 - **The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial** (2022). [Ver](https://maluque.netlify.app/publication/dmif/)
