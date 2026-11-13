@@ -5,9 +5,10 @@
 // scripts/check-palette-sync.sh.
 $primary: #1f4e79;
 $secondary: #5b8fb9;
-$body-color: #222;
-$link-color: $primary;
-$headings-color: $primary;
+// NOTE: do not override $body-color, $link-color, or $headings-color here.
+// These are theme-wide variables shared by both the light (cosmo) and dark
+// (darkly) themes. Forcing a dark value would make body text, links, and
+// headings invisible in dark mode. Let each theme set its own text colors.
 
 /*-- scss:rules --*/
 
