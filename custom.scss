@@ -14,6 +14,12 @@ $secondary: #5b8fb9;
 
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+  .navbar-logo {
+    max-height: 38px;
+    width: auto;
+    border-radius: 6px;
+  }
 }
 
 // Hero banner on the home page
@@ -23,6 +29,14 @@ $secondary: #5b8fb9;
   border-radius: 10px;
   padding: 3rem 2rem;
   margin: 1.5rem 0 2rem;
+
+  .hero-logo {
+    background: #fff;
+    padding: 8px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
 
   h1 {
     color: #fff;

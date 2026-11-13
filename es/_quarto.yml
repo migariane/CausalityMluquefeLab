@@ -8,6 +8,7 @@ project:
     - "research/*.qmd"
   resources:
     - "students/*/photo.*"
+    - "../img/*"
 
 website:
   title: "Causality Lab"
@@ -16,6 +17,8 @@ website:
     epidemiología computacional en la Universidad de Granada.
   navbar:
     background: light
+    logo: ../img/logo.png
+    logo-alt: "Causality Lab — Miguel Ángel Luque Fernández"
     left:
       - text: "Inicio"
         href: index.qmd

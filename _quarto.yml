@@ -8,6 +8,7 @@ project:
     - "research/*.qmd"
   resources:
     - "students/*/photo.*"
+    - "img/*"
   preview:
     port: 4321
 
@@ -22,6 +23,8 @@ website:
     site: "@WATZILEI"
   navbar:
     background: light
+    logo: img/logo.png
+    logo-alt: "Causality Lab — Miguel Ángel Luque Fernández"
     left:
       - text: "Home"
         href: index.qmd

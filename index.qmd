@@ -5,6 +5,8 @@ page-layout: full
 ---
 
 ::: {.hero}
+![Causality Lab](img/logo.png){.hero-logo width="150"}
+
 # Miguel Ángel Luque Fernández
 
 **MA · MSc · MPH · BSc · PhD**
