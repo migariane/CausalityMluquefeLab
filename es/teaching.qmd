@@ -1,0 +1,49 @@
+---
+title: "Docencia"
+---
+
+Soy Profesor Titular de Bioestadística en la Universidad de Granada y organizador de módulos a distancia del MSc en Epidemiología de la London School of Hygiene and Tropical Medicine (LSHTM).
+
+## Libro
+
+**[Computational Causal Inference for Applied Researchers](https://migariane.github.io/Causal-Inference-Book/)** — libro de acceso abierto (con Matthew J. Smith) con 9 capítulos: resultados potenciales, DAGs, ajuste por regresión, G-formula, puntuaciones de propensión, AIPW, TMLE, datos longitudinales, mediación y análisis de sensibilidad, con ~65 ejemplos reproducibles en R y Stata.
+
+[Leer en línea](https://migariane.github.io/Causal-Inference-Book/) · [GitHub](https://github.com/migariane/Causal-Inference-Book)
+
+## Cursos
+
+- **EPM304** — Advanced Statistical Methods in Epidemiology (LSHTM)
+- **Curso corto: Introduction to Survival Analysis in Cancer Epidemiology** — [GitHub](https://github.com/migariane/SVA-ULB)
+- **Introduction to Causal Inference and the Potential Outcomes Framework** — [Sitio del curso](https://ccci.netlify.app/)
+- **Computational Causal Inference and Estimation using Stata** (LSHTM)
+
+## Tutoriales de inferencia causal y TMLE
+
+- [Targeted Maximum Likelihood Estimation (TMLE) en R](https://migariane.github.io/TMLE.nb.html)
+- [Applied Computational Causal Inference using Stata](https://migariane.github.io/CIM.html)
+- [Las matemáticas detrás de TMLE (ES)](https://migariane.github.io/Maths_TMLE-IF.html)
+- [Delta Method Tutorial](https://migariane.github.io/DeltaMethodEpiTutorial.nb.html)
+- [ELTMLE: One Simulation (2017 SUGM)](https://migariane.github.io/eltmle_one_sim.html)
+
+## Inferencia conforme
+
+- [Guía completa (EN)](https://migariane.github.io/ConformalInferenceExplained.html)
+- [Diapositivas del tutorial (ES)](https://migariane.github.io/ConformalPrediction_Tutorial_ES.html)
+
+## Análisis de supervivencia
+
+- [Introduction to Time-to-Event Analysis](https://migariane.github.io/Tutorial-SVA-ULB.html)
+- [Net Survival: Cohort Analysis (Stata)](https://migariane.github.io/Cohort.html)
+- [Net Survival: STRS & Poisson Regression (Stata)](https://migariane.github.io/TutorialOne.html)
+- [Net Survival: Flexible Parametric Modeling (Stata)](https://migariane.github.io/TutorialTwo.html)
+
+## Aprendizaje automático
+
+- [SuperLearner Tutorial for Epidemiologists & Biostatisticians](https://migariane.github.io/SL-Tutorial/SuperLearner_Tutorial.html)
+- [Cross-Validation in Practice with R](https://migariane.github.io/CrossValidation.nb.html)
+
+## Herramientas y guías
+
+- [Claude Code en Windows](https://migariane.github.io/ClaudeCodeWindowsBiostat.html) — guía paso a paso para estadísticos (ES).
+
+Todos los tutoriales: [migariane.github.io](https://migariane.github.io)

@@ -1,58 +1,41 @@
 ---
-title: "Causality Lab"
-subtitle: "Inferencia causal para la investigación en salud"
+title: "Miguel Ángel Luque Fernández"
+subtitle: "Inferencia causal y bioestadística"
 page-layout: full
 ---
 
 ::: {.hero}
-# Causality Lab
+# Miguel Ángel Luque Fernández
 
-Grupo de investigación en inferencia causal del Departamento de
-Estadística e Investigación Operativa, Universidad de Granada.
+**MA · MSc · MPH · BSc · PhD**
+
+Profesor Titular de Bioestadística, **Departamento de Estadística e Investigación Operativa, Universidad de Granada** (España) · Profesor Asociado Honorario, **London School of Hygiene and Tropical Medicine**.
+
+[✉ Email](mailto:mluquefe@ugr.es){.btn .btn-light .btn-sm} [GitHub](https://github.com/migariane){.btn .btn-light .btn-sm} [Google Scholar](https://scholar.google.es/citations?user=lA11XToAAAAJ&hl){.btn .btn-light .btn-sm} [ORCID](https://orcid.org/0000-0001-6683-5164){.btn .btn-light .btn-sm} [Twitter](https://twitter.com/watzilei){.btn .btn-light .btn-sm} [Tutoriales](https://migariane.github.io){.btn .btn-light .btn-sm}
 :::
 
-## Qué hacemos
+## Sobre mí
 
-Desarrollamos y aplicamos métodos de inferencia causal a preguntas que
-importan en la investigación en salud: cuál es el efecto de una
-exposición, una intervención o una política sobre un desenlace, cuando
-no es posible aleatorizar.
+Doctor en Medicina Preventiva (Epidemiología) y Salud Pública, con *Summa Cum Laude*, por la Universidad de Granada (España) y la Université Libre de Bruxelles (Bélgica). Licenciado en Matemáticas y Estadística (Open University, Reino Unido), Máster en Bioestadística (University of Newcastle, Australia), Máster en Epidemiología (ULB) y Máster en Salud Pública (Universidad de Granada).
 
-El trabajo del grupo abarca la estimación por máxima verosimilitud
-dirigida (TMLE), los estimadores doblemente robustos basados en
-aprendizaje automático y el marco de resultados potenciales, aplicados a
-datos epidemiológicos y clínicos.
+Tras el doctorado (2010), realicé estancias posdoctorales en la University of Cape Town y la Harvard T.H. Chan School of Public Health, especializándome en métodos epidemiológicos e inferencia causal (2012–2015). Formado como *Epidemic Intelligence Officer*, he trabajado como epidemiólogo de campo con Médicos Sin Fronteras y WHO-GOARN en Haití y el África subsahariana.
 
-::: {.callout-note}
-**PENDIENTE — confirmar que el texto anterior describe el grupo con
-precisión** y añadir las dos o tres líneas de investigación por las que
-queréis ser reconocidos.
+Mi investigación se centra en **métodos epidemiológicos, inferencia causal y desigualdades socioeconómicas en los resultados del cáncer**.
+
+## Destacado
+
+### Computational Causal Inference for Applied Researchers
+
+Libro de acceso abierto (con Matthew J. Smith): nueve capítulos, desde resultados potenciales y DAGs hasta TMLE, datos longitudinales, mediación y análisis de sensibilidad, con ~65 ejemplos reproducibles en R y Stata.
+
+[Leer en línea](https://migariane.github.io/Causal-Inference-Book/) · [GitHub](https://github.com/migariane/Causal-Inference-Book)
+
+::: {.quick-links}
+[Investigación](research/index.qmd){.btn .btn-outline-primary} [Publicaciones](publications/index.qmd){.btn .btn-outline-primary} [Charlas](talks.qmd){.btn .btn-outline-primary} [Docencia](teaching.qmd){.btn .btn-outline-primary} [Software](software.qmd){.btn .btn-outline-primary}
 :::
-
-## Investigación
-
-Consulta [Investigación](research/index.qmd) para conocer las líneas de
-trabajo actuales y los problemas abiertos.
-
-## Equipo
-
-Consulta [Equipo](students/index.qmd) para ver a los doctorandos y sus
-proyectos.
-
-## Publicaciones y software
-
-- [Publicaciones](publications/index.qmd)
-- [Software](software.qmd)
 
 ## Contacto
 
-Responsable del grupo: Miguel Ángel Luque Fernández
-([ORCID 0000-0002-1382-875X](https://orcid.org/0000-0002-1382-875X),
-[mluquefe@ugr.es](mailto:mluquefe@ugr.es)) — Departamento de Estadística
-e Investigación Operativa, Universidad de Granada.
+**Departamento de Estadística e Investigación Operativa** · Facultad de Ciencias · Avenida de Fuentenueva S/N · 18071 Granada, España
 
-::: {.callout-note}
-**PENDIENTE — añadir la dirección postal del grupo y la filiación
-institucional**, y confirmar que el correo anterior es el que se quiere
-publicar.
-:::
+[mluquefe@ugr.es](mailto:mluquefe@ugr.es)

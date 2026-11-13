@@ -6,20 +6,29 @@ project:
     - "students/*/index.qmd"
     - "publications/*.qmd"
     - "research/*.qmd"
+  resources:
+    - "students/*/photo.*"
 
 website:
   title: "Causality Lab"
   description: >-
-    Grupo de investigación en inferencia causal de la Universidad de Granada.
+    Miguel Ángel Luque Fernández — inferencia causal, bioestadística y
+    epidemiología computacional en la Universidad de Granada.
   navbar:
     background: light
     left:
+      - text: "Inicio"
+        href: index.qmd
       - text: "Investigación"
         href: research/index.qmd
       - text: "Equipo"
         href: students/index.qmd
       - text: "Publicaciones"
         href: publications/index.qmd
+      - text: "Charlas"
+        href: talks.qmd
+      - text: "Docencia"
+        href: teaching.qmd
       - text: "Software"
         href: software.qmd
     right:

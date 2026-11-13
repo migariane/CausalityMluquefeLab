@@ -3,57 +3,12 @@ title: "Eliezer Pita"
 subtitle: "Doctorando"
 ---
 
-::: {.columns}
-::: {.column width="30%"}
-::: {.callout-note}
-**PENDIENTE — añadir una foto** en `es/students/eliezer-pita/photo.jpg`,
-con su consentimiento. Mientras tanto se mantiene este marcador.
-:::
-:::
-
-::: {.column width="70%"}
-
 ## Proyecto
 
-**Inferencia causal e inferencia conformal.**
+**Inferencia causal e inferencia conforme.**
 
-La tesis desarrolla métodos de inferencia conformal para preguntas
-causales, con el objetivo de obtener cuantificación de la incertidumbre
-válida sin depender de los supuestos paramétricos que exigen los
-estimadores causales habituales. Los métodos conformales ofrecen
-garantías de cobertura libres de distribución, lo que los hace
-atractivos cuando el modelo del desenlace se aprende con aprendizaje
-automático o cuando la muestra es pequeña.
-
-::: {.callout-note}
-**PENDIENTE — Eliezer: reescribe este párrafo con tus propias palabras**
-para que refleje tu pregunta de investigación real, el hueco concreto en
-la literatura y el punto en que se encuentra la tesis. Sustituye
-íntegramente la descripción anterior.
-:::
+La tesis desarrolla métodos de inferencia conforme para preguntas causales, con el objetivo de producir cuantificación de incertidumbre válida sin depender de los supuestos paramétricos que necesitan los estimadores causales estándar. Los métodos conformes ofrecen garantías de cobertura libres de distribución, lo que los hace atractivos cuando el modelo de desenlace se aprende mediante aprendizaje automático o cuando la muestra es pequeña.
 
 **Director:** Miguel Ángel Luque Fernández
 
 **Institución:** Universidad de Granada
-
-**Inicio:** PENDIENTE
-
-**Financiación:** PENDIENTE (o borra esta línea)
-
-## Publicaciones
-
-::: {.callout-note}
-**PENDIENTE — listar publicaciones, o borrar esta sección** si aún no hay
-ninguna. Nunca listes un artículo como publicado antes de que lo esté.
-:::
-
-## Contacto
-
-::: {.callout-note}
-**PENDIENTE — añadir solo los datos de contacto que Eliezer acepte
-publicar**, y borrar esta nota. El correo institucional suele ser
-suficiente.
-:::
-
-:::
-:::

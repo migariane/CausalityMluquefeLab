@@ -1,0 +1,19 @@
+---
+title: "Talks"
+---
+
+Conference presentations, seminars, and invited lectures.
+
+## 2025
+
+- **Conformal Statistical Inference: A Tutorial for Biostatistics and Machine Learning Applications** — Department of Statistics and Operations Research Seminar, University of Granada, Spain (15 May 2025). [Slides (ES)](https://migariane.github.io/ConformalPrediction_Tutorial_ES.html) · [Guide (EN)](https://migariane.github.io/ConformalInferenceExplained.html)
+
+## 2017
+
+- **The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial** — Internal ICON group seminar, LSHTM, London, UK.
+
+- **Paradoxical collider effect in the analysis of non-communicable disease epidemiological data** — XXVII Annual Meeting, Spanish Society of Epidemiology (SEE), Oviedo, Spain.
+
+- **Ensemble Learning Targeted Maximum Likelihood Estimation** — Stata Users Group Meeting, London, UK.
+
+- **Clinical Epidemiology in the Era of the Big Data Revolution: New Opportunities** — NDMORS, Medical Science Division, University of Oxford, UK.

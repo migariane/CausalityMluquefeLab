@@ -2,45 +2,26 @@
 title: "Investigación"
 ---
 
-## Líneas de trabajo
+Mi investigación se sitúa en la intersección de la **inferencia causal**, la **bioestadística** y la **epidemiología computacional**, con especial atención a métodos que siguen siendo válidos cuando la aleatorización es imposible y los datos son observacionales.
 
-::: {.callout-note}
-**PENDIENTE — sustituir este texto por las líneas de investigación
-reales del grupo.** Cada línea debería ser un párrafo: la pregunta, por
-qué es difícil y qué ha hecho el grupo al respecto.
-:::
+## Estimación causal con exposiciones complejas
 
-### Estimación causal con exposiciones complejas
+Efectos de tratamiento multicausales y multivaluados en el marco de resultados potenciales: qué hacer cuando un tratamiento tiene más de dos niveles, los modelos auxiliares se aprenden mediante aprendizaje automático y el estimando debe seguir siendo interpretable. Estimación doblemente robusta, *cross-fitting* e inferencia basada en funciones de influencia. Véase [Software](../software.qmd) para la implementación de `tmleMulti`.
 
-Efectos de tratamiento multicausales y multivaluados en el marco de
-resultados potenciales. Estimación doblemente robusta, validación
-cruzada (*cross-fitting*) e inferencia basada en funciones de influencia
-cuando el tratamiento tiene más de dos niveles y los modelos auxiliares
-se aprenden mediante aprendizaje automático. La implementación está en
-[Software](../software.qmd).
+## Targeted learning y eficiencia semiparamétrica
 
-### Aprendizaje automático y eficiencia semiparamétrica
+Estimación por máxima verosimilitud dirigida (TMLE), aprendizaje doblemente robusto y la teoría de eficiencia semiparamétrica que hace válidos y publicables estos estimadores. Un hilo central de mi trabajo es la *función de influencia* y el *método delta* como herramientas unificadoras para la estimación de varianzas en estadística médica.
 
-Uso de aprendices flexibles dentro de estimadores semiparamétricos sin
-renunciar a una inferencia válida: máxima verosimilitud dirigida,
-aprendizaje doblemente robusto y la estimación de la varianza que los
-hace publicables.
+## Inferencia conforme para preguntas causales
 
-### Aplicaciones en salud y epidemiología
+Cuantificación de incertidumbre libre de distribución con garantías de cobertura en muestras finitas. Junto con mis doctorandos desarrollo métodos conformes para estimandos causales.
 
-Preguntas causales con datos observacionales en salud, donde no es
-posible aleatorizar y los supuestos deben argumentarse, no comprobarse.
+## Epidemiología computacional y desigualdades en cáncer
 
-::: {.callout-note}
-**PENDIENTE — añadir los proyectos aplicados realmente en curso**,
-especialmente las tesis de los doctorandos, para que esta sección
-refleje trabajo real y no la descripción genérica anterior.
-:::
+Preguntas causales aplicadas en salud poblacional: desigualdades socioeconómicas en los resultados del cáncer, el efecto de la presentación de urgencia en la supervivencia, y estimadores reproducibles y adaptativos para la epidemiología del cáncer.
 
 ## Problemas abiertos
 
-::: {.callout-note}
-**PENDIENTE — enumerar los problemas que os gustaría que abordaran
-colaboradores o futuros doctorandos.** Suele ser lo que más contactos
-útiles atrae.
-:::
+Doy la bienvenida a colaboraciones y futuros estudiantes en: efectos de tratamiento multicausales con modelos auxiliares aprendidos por ML, inferencia conforme para estimandos causales, y tutoriales computacionales reproducibles que acerquen los avances metodológicos a los investigadores aplicados.
+
+Contacto: [mluquefe@ugr.es](mailto:mluquefe@ugr.es).

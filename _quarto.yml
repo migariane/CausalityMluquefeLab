@@ -13,17 +13,28 @@ project:
 
 website:
   title: "Causality Lab"
+  site-url: https://migariane.github.io/CausalityMluquefeLab/
   description: >-
-    Causal inference research group at the University of Granada.
+    Miguel Ángel Luque Fernández — causal inference, biostatistics, and
+    computational epidemiology at the University of Granada.
+  open-graph: true
+  twitter-card:
+    site: "@WATZILEI"
   navbar:
     background: light
     left:
+      - text: "Home"
+        href: index.qmd
       - text: "Research"
         href: research/index.qmd
       - text: "Team"
         href: students/index.qmd
       - text: "Publications"
         href: publications/index.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Teaching"
+        href: teaching.qmd
       - text: "Software"
         href: software.qmd
     right:

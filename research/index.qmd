@@ -2,43 +2,26 @@
 title: "Research"
 ---
 
-## Lines of work
+My research sits at the intersection of **causal inference**, **biostatistics**, and **computational epidemiology**, with a focus on methods that stay valid when randomisation is impossible and the data are observational.
 
-::: {.callout-note}
-**TODO — replace this placeholder with the group's real research lines.**
-Each line should be one paragraph: the question, why it is hard, and what
-the group has done about it.
-:::
+## Causal estimation with complex exposures
 
-### Causal estimation with complex exposures
+Multicausal and multivalued treatment effects in the potential outcomes framework: what to do when a treatment has more than two levels, the nuisance models are learned by machine learning, and the estimand must remain interpretable. Double-robust estimation, cross-fitting, and influence-function-based inference. See [Software](../software.qmd) for the `tmleMulti` implementation.
 
-Multicausal and multivalued treatment effects in the potential outcomes
-framework. Double-robust estimation, cross-fitting, and
-influence-function-based inference when the treatment has more than two
-levels and the nuisance models are learned by machine learning. See
-[Software](../software.qmd) for the implementation.
+## Targeted learning & semiparametric efficiency
 
-### Machine learning and semiparametric efficiency
+Targeted maximum likelihood estimation (TMLE), doubly robust learning, and the semiparametric efficiency theory that makes these estimators valid and publishable. A central thread of my work is the *influence function* and *delta method* as unifying tools for variance estimation in medical statistics.
 
-Using flexible learners inside semiparametric estimators without giving
-up valid inference: targeted maximum likelihood, doubly robust learning,
-and the variance estimation that makes them publishable.
+## Conformal inference for causal questions
 
-### Applications in health and epidemiology
+Distribution-free uncertainty quantification with finite-sample coverage guarantees. Together with my PhD students we develop conformal methods for causal estimands, where the outcome model is learned by machine learning or the sample is small.
 
-Causal questions in observational health data, where randomisation is
-impossible and the assumptions have to be argued rather than verified.
+## Computational epidemiology & inequalities in cancer
 
-::: {.callout-note}
-**TODO — add the applied projects actually under way**, especially the
-PhD students' thesis topics, so this section reflects real work rather
-than the generic description above.
-:::
+Applied causal questions in population health: socioeconomic inequalities in cancer outcomes, the effect of emergency presentation on cancer survival, and reproducible, data-adaptive estimators for cancer epidemiology.
 
 ## Open problems
 
-::: {.callout-note}
-**TODO — list the problems you would like collaborators or prospective
-students to approach.** This is often what attracts the most useful
-contact.
-:::
+I welcome collaborations and prospective students on: multicausal treatment effects with machine-learned nuisance models, conformal inference for causal estimands, and reproducible computational tutorials that bridge the gap between methodological advances and applied researchers.
+
+The best way to reach me is by email: [mluquefe@ugr.es](mailto:mluquefe@ugr.es).

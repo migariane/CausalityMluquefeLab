@@ -2,39 +2,43 @@
 title: "Software"
 ---
 
-## tmleMulti
+Open-source software, packages, and interactive applications developed and maintained by the group.
 
-Targeted Maximum Likelihood Estimation for multicausal treatment effects
-in the potential outcomes framework. Supports multivalued treatments with
-Super Learner nuisance estimation, cross-fitting, and
-influence-function-based variance estimation, alongside competitor
-estimators (Double Machine Learning, overlap-weighted IPW, and
-G-computation).
+## R packages
 
-- Package source: [github.com/migariane/tmleMulti](https://github.com/migariane/tmleMulti)
-- Reference documentation: [migariane.github.io/tmleMulti](https://migariane.github.io/tmleMulti)
+### tmleMulti
 
-**Authors:** co-authored by Gustavo Rivas Gervilla (PhD student, this
-group) and Miguel Ángel Luque Fernández (senior author).
+Targeted Maximum Likelihood Estimation for **multicausal** treatment effects in the potential outcomes framework. Supports multivalued treatments with Super Learner nuisance estimation, cross-fitting, and influence-function-based variance estimation, alongside competitor estimators (Double Machine Learning, overlap-weighted IPW, and G-computation).
 
-::: {.callout-note}
-**TODO — the package metadata does not yet reflect this.** The
-`DESCRIPTION` `Authors@R` field and the `LICENSE` copyright holder list
-only Miguel Ángel Luque Fernández. Add Gustavo as `aut` (and confirm the
-copyright line) before publishing the co-authorship claim above, so the
-site and the package agree.
-:::
+- Source: [github.com/migariane/tmleMulti](https://github.com/migariane/tmleMulti)
+- Reference: [migariane.github.io/tmleMulti](https://migariane.github.io/tmleMulti)
 
-::: {.callout-note}
-**TODO — confirm the version to advertise.** The package `DESCRIPTION`
-says 0.1.0. Do not present it as a released/CRAN package unless it is
-one; state "development version" if that is accurate.
-:::
+Co-authored by Gustavo Rivas Gervilla (PhD student, this group) and Miguel Ángel Luque Fernández (senior author).
 
-## Other tools
+### BioEstatR
 
-::: {.callout-note}
-**TODO — add any other software the group maintains**, or delete this
-heading. Prefer linking to the repository over copying code here, so
-there is one source of truth.
-:::
+Classical biostatistics routines for the health sciences — companion package to *Matemática Estadística Médica con R* (probability, inference, regression, epidemiology).
+
+- Reference: [migariane.github.io/BioEstatR](https://migariane.github.io/BioEstatR/)
+
+## Stata packages
+
+- **[eltmle](https://github.com/migariane/meltmle)** — Targeted Maximum Likelihood Estimation for the average treatment effect, with Super Learner ensemble learning.
+- **[cvAUROC](https://github.com/migariane/cvAUROC)** — Cross-validated area under the ROC curve with bootstrap confidence intervals.
+- **[cmatch](https://github.com/migariane/cmatch)** — Tabulation of matched pairs in 1:1 matched case-control studies.
+
+## Interactive Shiny apps
+
+- [Desigualdades Sociales en Andalucía (RENTA)](https://watzile.shinyapps.io/RENTA/) — interactive map of income and sociodemographic variables by census tract in Andalusia (2015–2022).
+- [Expected Date of Delivery](https://watzile.shinyapps.io/ExpectedDateDelivery/) — calculate an expected delivery date from gestational age, with uncertainty intervals.
+- [Pattern of Comorbidities in Cancer](https://watzile.shinyapps.io/CoMCoR/) — interactive network visualisation of comorbidity patterns among cancer patients.
+- [Parametric Distributions: Time-to-Event](https://watzile.shinyapps.io/Pardist/) — explore Weibull, log-normal, and Gompertz survival distributions.
+- [Colliders in Epidemiology](https://watzile.shinyapps.io/EpiCollider/) — a visual demonstration of collider and selection bias.
+- [Central Limit Theorem Explorer](https://watzile.shinyapps.io/TeoreCLT/) — see the CLT emerge by repeated sampling.
+- [Confidence Intervals Explorer](https://watzile.shinyapps.io/IntervalosConfianza/) — how sample size, variability, and confidence level affect interval width.
+
+## Books
+
+- [Computational Causal Inference for Applied Researchers](https://migariane.github.io/Causal-Inference-Book/) — open-access book (R and Stata).
+- [Mathematical Statistics with R](https://github.com/migariane/MatematicaEstadisticaMedicinaR) — open-access textbook (Spanish).
+- [Advanced Methods for Biostatistics (Bioestadística Aplicada)](https://migariane.github.io/Bioestadistica/) — applied biostatistics (Spanish).

@@ -3,58 +3,14 @@ title: "Gustavo Rivas Gervilla"
 subtitle: "Doctorando"
 ---
 
-::: {.columns}
-::: {.column width="30%"}
-::: {.callout-note}
-**PENDIENTE — añadir una foto** en
-`es/students/gustavo-rivas-gervilla/photo.jpg`, con su consentimiento.
-Mientras tanto se mantiene este marcador.
-:::
-:::
-
-::: {.column width="70%"}
-
 ## Proyecto
 
 **Multicausalidad.**
 
-La tesis aborda la estimación de efectos de tratamiento multicausales en
-el marco de resultados potenciales: qué hacer cuando el tratamiento
-tiene más de dos niveles, los modelos auxiliares se aprenden mediante
-aprendizaje automático y el estimando debe seguir siendo interpretable.
+La tesis aborda la estimación de efectos de tratamiento multicausales en el marco de resultados potenciales: qué hacer cuando un tratamiento tiene más de dos niveles, los modelos auxiliares se aprenden mediante aprendizaje automático y el estimando debe seguir siendo interpretable.
 
-El trabajo se acompaña del paquete de R `tmleMulti`, del que es coautor
-junto con su director (autor sénior). Véase [Software](../../software.qmd).
-
-::: {.callout-note}
-**PENDIENTE — Gustavo: reescribe este párrafo con tus propias palabras**
-para que refleje tu pregunta de investigación real, la aportación
-metodológica concreta y el punto en que se encuentra la tesis. Sustituye
-íntegramente la descripción anterior.
-:::
+El trabajo se acompaña del paquete de R `tmleMulti`, que coautoró con su director (autor sénior). Véase [Software](../../software.qmd).
 
 **Director:** Miguel Ángel Luque Fernández
 
 **Institución:** Universidad de Granada
-
-**Inicio:** PENDIENTE
-
-**Financiación:** PENDIENTE (o borra esta línea)
-
-## Publicaciones
-
-::: {.callout-note}
-**PENDIENTE — listar publicaciones, o borrar esta sección** si aún no hay
-ninguna. Nunca listes un artículo como publicado antes de que lo esté.
-:::
-
-## Contacto
-
-::: {.callout-note}
-**PENDIENTE — añadir solo los datos de contacto que Gustavo acepte
-publicar**, y borrar esta nota. El correo institucional suele ser
-suficiente.
-:::
-
-:::
-:::

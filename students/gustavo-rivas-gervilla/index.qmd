@@ -3,56 +3,14 @@ title: "Gustavo Rivas Gervilla"
 subtitle: "PhD student"
 ---
 
-::: {.columns}
-::: {.column width="30%"}
-::: {.callout-note}
-**TODO — add a photo** at `students/gustavo-rivas-gervilla/photo.jpg`,
-with his consent. Until then this placeholder stays.
-:::
-:::
-
-::: {.column width="70%"}
-
 ## Project
 
 **Multicausality.**
 
-The thesis concerns the estimation of multicausal treatment effects in
-the potential outcomes framework: what to do when a treatment has more
-than two levels, the nuisance models are learned by machine learning,
-and the estimand must remain interpretable.
+The thesis concerns the estimation of multicausal treatment effects in the potential outcomes framework: what to do when a treatment has more than two levels, the nuisance models are learned by machine learning, and the estimand must remain interpretable.
 
-The work is accompanied by the `tmleMulti` R package, which he co-authored
-with his supervisor (senior author). See [Software](../../software.qmd).
-
-::: {.callout-note}
-**TODO — Gustavo: rewrite this paragraph in your own words** so it states
-your actual research question, the specific methodological contribution,
-and the stage the thesis has reached. Replace the description above
-entirely.
-:::
+The work is accompanied by the `tmleMulti` R package, which he co-authored with his supervisor (senior author). See [Software](../../software.qmd).
 
 **Supervisor:** Miguel Ángel Luque Fernández
 
 **Institution:** University of Granada
-
-**Started:** TODO
-
-**Funding:** TODO (or delete this line)
-
-## Publications
-
-::: {.callout-note}
-**TODO — list publications, or delete this section** if there are none
-yet. Never list a paper as published before it is.
-:::
-
-## Contact
-
-::: {.callout-note}
-**TODO — add only the contact details Gustavo agrees to publish**, then
-delete this note. Institutional email is usually enough.
-:::
-
-:::
-:::

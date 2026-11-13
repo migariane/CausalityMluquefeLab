@@ -1,53 +1,63 @@
 ---
-title: "Causality Lab"
-subtitle: "Causal inference for health research"
+title: "Miguel Ángel Luque Fernández"
+subtitle: "Causal inference & biostatistics"
 page-layout: full
 ---
 
 ::: {.hero}
-# Causality Lab
+# Miguel Ángel Luque Fernández
 
-Research group in causal inference at the Department of Statistics and
-Operations Research, University of Granada.
+**MA · MSc · MPH · BSc · PhD**
+
+Associate Professor of Biostatistics, **Department of Statistics and Operations Research, University of Granada** (Spain) · Honorary Associate Professor, **London School of Hygiene and Tropical Medicine**.
+
+[✉ Email](mailto:mluquefe@ugr.es){.btn .btn-light .btn-sm} [GitHub](https://github.com/migariane){.btn .btn-light .btn-sm} [Google Scholar](https://scholar.google.es/citations?user=lA11XToAAAAJ&hl){.btn .btn-light .btn-sm} [ORCID](https://orcid.org/0000-0001-6683-5164){.btn .btn-light .btn-sm} [Twitter](https://twitter.com/watzilei){.btn .btn-light .btn-sm} [Tutorials](https://migariane.github.io){.btn .btn-light .btn-sm}
 :::
 
-## What we do
+## About
 
-We develop and apply causal inference methods for questions that matter
-in health research: what is the effect of an exposure, an intervention,
-or a policy on an outcome, when randomisation is not possible.
+I received my PhD in Preventive Medicine (Epidemiology) and Public Health, awarded *Summa Cum Laude*, from the University of Granada (Spain) and the Université Libre de Bruxelles (Belgium). I also hold a BSc in Mathematics and Statistics (Open University, UK), an MSc in Biostatistics (University of Newcastle, Australia), an MSc in Epidemiology (ULB), and a Master in Public Health (University of Granada).
 
-Work in the group spans targeted maximum likelihood estimation, doubly
-robust and machine-learning-based estimators, and the potential outcomes
-framework, applied to epidemiological and clinical data.
+After my PhD in 2010, I held postdoctoral fellowships at the University of Cape Town and the Harvard T.H. Chan School of Public Health, specialising in epidemiological methods and causal inference (2012–2015). Trained as an Epidemic Intelligence Officer, I have worked as a field epidemiologist with Médecins Sans Frontières and WHO-GOARN in Haiti and sub-Saharan Africa.
 
-::: {.callout-note}
-**TODO — confirm the scope text above** describes the group accurately,
-and add the two or three research lines you most want to be known for.
+My research focuses on **epidemiological methods, causal inference, and socioeconomic inequalities in cancer outcomes**.
+
+::: {.quick-links}
+[Research](research/index.qmd){.btn .btn-outline-primary} [Publications](publications/index.qmd){.btn .btn-outline-primary} [Talks](talks.qmd){.btn .btn-outline-primary} [Teaching](teaching.qmd){.btn .btn-outline-primary} [Software](software.qmd){.btn .btn-outline-primary}
 :::
 
-## Research
+## Featured
 
-See [Research](research/index.qmd) for the group's current lines of work
-and open problems.
+::: {.feature-grid}
 
-## Team
+::: {.feature-card}
+### Computational Causal Inference for Applied Researchers
 
-See [Team](students/index.qmd) for the PhD students and their projects.
+Open-access book (with Matthew J. Smith) — nine chapters from potential outcomes and DAGs to TMLE, longitudinal data, mediation, and sensitivity analysis, with ~65 reproducible R and Stata examples.
 
-## Publications and software
+[Read online](https://migariane.github.io/Causal-Inference-Book/) · [GitHub](https://github.com/migariane/Causal-Inference-Book) · [DOI: 10.5281/zenodo.20677995](https://doi.org/10.5281/zenodo.20677995)
+:::
 
-- [Publications](publications/index.qmd)
-- [Software](software.qmd)
+::: {.feature-card}
+### Causality Lab
+
+Causal inference research group at the Department of Statistics and Operations Research, University of Granada — the work of its PhD students, current research, and software.
+
+[Meet the team](students/index.qmd) · [Research lines](research/index.qmd)
+:::
+
+::: {.feature-card}
+### Conformal Statistical Inference
+
+Distribution-free prediction sets with valid finite-sample coverage — split conformal, conformal quantile regression, full conformal, and Jackknife+.
+
+[Guide (EN)](https://migariane.github.io/ConformalInferenceExplained.html) · [Slides (ES)](https://migariane.github.io/ConformalPrediction_Tutorial_ES.html)
+:::
+
+:::
 
 ## Contact
 
-Group lead: Miguel Ángel Luque Fernández
-([ORCID 0000-0002-1382-875X](https://orcid.org/0000-0002-1382-875X),
-[mluquefe@ugr.es](mailto:mluquefe@ugr.es)) — Department of Statistics and
-Operations Research, University of Granada.
+**Departamento de Estadística e Investigación Operativa** · Facultad de Ciencias · Avenida de Fuentenueva S/N · 18071 Granada, Spain
 
-::: {.callout-note}
-**TODO — add the group's postal address and an institutional affiliation
-line**, and confirm whether the email above is the one to publish.
-:::
+[mluquefe@ugr.es](mailto:mluquefe@ugr.es)

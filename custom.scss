@@ -7,6 +7,7 @@ $primary: #1f4e79;
 $secondary: #5b8fb9;
 $body-color: #222;
 $link-color: $primary;
+$headings-color: $primary;
 
 /*-- scss:rules --*/
 
@@ -14,10 +15,70 @@ $link-color: $primary;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.quarto-title-block .quarto-title-banner {
-  background: $primary;
+// Hero banner on the home page
+.hero {
+  background: linear-gradient(135deg, $primary 0%, #2c6ba3 100%);
   color: #fff;
-  padding: 2.5rem 1rem;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  margin: 1.5rem 0 2rem;
+
+  h1 {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+    margin: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .btn-light {
+    margin: 0.25rem 0.25rem 0.25rem 0;
+    color: $primary;
+    border: none;
+  }
+
+  .btn-light:hover {
+    background: #fff;
+    color: darken($primary, 10%);
+  }
+}
+
+// Quick link row under the hero
+.quick-links {
+  margin: 1.5rem 0;
+  .btn {
+    margin: 0.25rem 0.25rem 0.25rem 0;
+  }
+}
+
+// Featured cards on the home page
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.feature-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  h3 {
+    font-size: 1.15rem;
+    margin-top: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
 }
 
 // Student cards on the team listing
@@ -33,6 +94,11 @@ $link-color: $primary;
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
+  transition: box-shadow 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .student-card img {
@@ -52,4 +118,14 @@ $link-color: $primary;
 .student-card .role {
   font-size: 0.9rem;
   color: #666;
+}
+
+// Dark-mode adjustments for cards
+.dark .feature-card,
+.dark .student-card {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.dark .student-card .role {
+  color: #aaa;
 }

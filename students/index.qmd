@@ -2,19 +2,17 @@
 title: "Team"
 ---
 
-## PhD students
+## Group lead
 
-::: {.callout-note}
-**TODO — add one directory per student under `students/`**, copying
-`templates/student.qmd.txt`. Each student should provide their own text and
-approve their photo before it is published. The listing below is the
-single place to describe the group; individual pages hold the detail.
-:::
+**Miguel Ángel Luque Fernández** — Associate Professor of Biostatistics, Department of Statistics and Operations Research, University of Granada; Honorary Associate Professor, London School of Hygiene and Tropical Medicine.
+
+[ORCID](https://orcid.org/0000-0001-6683-5164) · [Google Scholar](https://scholar.google.es/citations?user=lA11XToAAAAJ&hl) · [GitHub](https://github.com/migariane) · [mluquefe@ugr.es](mailto:mluquefe@ugr.es)
+
+## PhD students
 
 ::: {.student-grid}
 
 ::: {.student-card}
-<!-- TODO: add a photo at students/eliezer-pita/photo.jpg -->
 
 ### Eliezer Pita
 
@@ -22,11 +20,10 @@ single place to describe the group; individual pages hold the detail.
 PhD student · Causal inference and conformal inference
 :::
 
-[Profile](../students/eliezer-pita/index.qmd)
+[Profile](eliezer-pita/index.qmd)
 :::
 
 ::: {.student-card}
-<!-- TODO: add a photo at students/gustavo-rivas-gervilla/photo.jpg -->
 
 ### Gustavo Rivas Gervilla
 
@@ -34,40 +31,7 @@ PhD student · Causal inference and conformal inference
 PhD student · Multicausality
 :::
 
-[Profile](../students/gustavo-rivas-gervilla/index.qmd)
+[Profile](gustavo-rivas-gervilla/index.qmd)
 :::
 
-:::
-
-::: {.callout-tip}
-## Card template
-
-Paste this inside `.student-grid` for each student, replacing
-`firstname-lastname` with the directory you created:
-
-```markdown
-::: {.student-card}
-![](../students/firstname-lastname/photo.jpg){alt="Portrait of Student name"}
-
-### Student name
-
-::: {.role}
-PhD student · Thesis topic
-:::
-
-[Profile](../students/firstname-lastname/index.qmd)
-:::
-```
-:::
-
-## Group lead
-
-**Miguel Ángel Luque Fernández** — Department of Statistics and
-Operations Research, University of Granada.
-[ORCID](https://orcid.org/0000-0002-1382-875X) ·
-[mluquefe@ugr.es](mailto:mluquefe@ugr.es)
-
-::: {.callout-note}
-**TODO — add any postdocs, collaborators, or co-supervisors** who should
-appear here, with their consent.
 :::
