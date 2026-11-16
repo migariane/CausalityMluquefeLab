@@ -1,11 +1,13 @@
 ---
-title: "Equipo"
-pagetitle: "Equipo"
-description: "Causality Lab: inferencia causal, bioestadística y epidemiología en la Universidad de Granada."
+title: "Redirecci\u00f3n"
+pagetitle: "Redirecci\u00f3n"
 lang: "es"
 asset-prefix: "../../"
-alternate-lang: "en"
-alternate-href: "../../team/index.html"
+redirect-url: "../index.html#team"
+redirect-label: "Continuar a la página actual"
+format:
+  html:
+    template: ../../templates/redirect.html
 ---
 
 ```{=html}

@@ -1,11 +1,13 @@
 ---
-title: "Team"
-pagetitle: "Team"
-description: "Causality Lab: causal inference, biostatistics and epidemiology at the University of Granada."
+title: "Redirect"
+pagetitle: "Redirect"
 lang: "en"
 asset-prefix: "../"
-alternate-lang: "es"
-alternate-href: "../es/team/index.html"
+redirect-url: "../index.html#team"
+redirect-label: "Continue to the current page"
+format:
+  html:
+    template: ../templates/redirect.html
 ---
 
 ```{=html}

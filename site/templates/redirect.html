@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="$lang$">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="0; url=$redirect-url$">
+  <title>$pagetitle$ · Causality Lab</title>
+  <link rel="icon" href="$asset-prefix$assets/favicon.svg" type="image/svg+xml">
+  <style>
+    body { margin: 2rem; background: #f7f9fc; color: #142d4e; font: 1rem/1.6 system-ui, sans-serif; }
+    a { color: #205b93; font-weight: 600; text-decoration: none; }
+    a:focus-visible { outline: 3px solid #2867a3; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <p><a id="redirect-link" href="$redirect-url$">$redirect-label$</a></p>
+  <script>window.location.replace(document.getElementById('redirect-link').href);</script>
+</body>
+</html>
